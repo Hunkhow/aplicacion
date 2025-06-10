@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  <div class="center-wrapper">
+  <img src="assets/img/logo.png" alt="logo" style="display: block; margin: 0 auto; width: 150px; height: auto;">
+  </div>
+  <div class="center-wrapper">
+    
+    <ion-item>
+      <ion-input label="Usename" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" label="Password" value="">
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+
+    <ion-button [routerLink]="['/home']">Entrar</ion-button>
+
+  </div>
+</ion-content>
